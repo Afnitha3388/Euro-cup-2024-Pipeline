@@ -11,16 +11,16 @@ Kaggle Dataset → Extract → Transform → Load → PostgreSQL → Power BI Da
 
 # Tech Stack
 
-| Tool       |                 Purpose       |
-
-PythonCore                     pipeline logic
-Apache Airflow 3.x             Pipeline orchestration
-Docker                         Containerized Airflow environment
-Pandas                         Data transformation
-PostgreSQL                     Data storage
-SQLAlchemy                     Database connection
-Power BI                       Data visualization
-Kaggle API                     Data source
+| Tool | Purpose |
+|---|---|
+| Python | Core pipeline logic |
+| Apache Airflow 3.x | Pipeline orchestration |
+| Docker | Containerized Airflow environment |
+| Pandas | Data transformation |
+| PostgreSQL | Data storage |
+| SQLAlchemy | Database connection |
+| Power BI | Data visualization |
+| Kaggle API | Data source |
 
 # Project Structure
 
