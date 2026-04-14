@@ -41,14 +41,15 @@ Returns the folder path to the next task
 
 # 2. Transform
 
-Dynamically discovers all CSV files in the extracted folder using pathlib.glob
+Dynamically discovers all CSV files in the extracted folder using pathlib.glob.
+'''
 For each CSV:
 Lowercases and strips column names
 Removes duplicates
 Drops null values
 Converts date columns where present
 Returns a dictionary of DataFrames keyed by table name
-
+'''
 # 3. Load
 
 Connects to PostgreSQL using SQLAlchemy
