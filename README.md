@@ -53,10 +53,11 @@ Returns a dictionary of DataFrames keyed by table name
 
 Connects to PostgreSQL using SQLAlchemy
 Loads each DataFrame as a separate table:
-
+```
 assists — player assist records
 goals — player goal records
 matches — match results and statistics
+```
 
 # Dataset
 
