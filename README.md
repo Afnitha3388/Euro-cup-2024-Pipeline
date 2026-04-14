@@ -36,7 +36,7 @@ Kaggle Dataset → Extract → Transform → Load → PostgreSQL → Power BI Da
 # 1. Extract
 
 Downloads the UEFA Euro 2024 dataset from Kaggle using the Kaggle CLI,
-Extracts the ZIP file into /opt/airflow/data/Eurocup2024
+Extracts the ZIP file into /opt/airflow/data/Eurocup2024.
 Returns the folder path to the next task
 
 # 2. Transform
