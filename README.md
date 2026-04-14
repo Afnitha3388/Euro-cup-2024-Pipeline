@@ -11,7 +11,7 @@ Kaggle Dataset → Extract → Transform → Load → PostgreSQL → Power BI Da
 
 # Tech Stack
 
-# Tool                         Purpose
+| Tool       |                 Purpose       |
 
 PythonCore                     pipeline logic
 Apache Airflow 3.x             Pipeline orchestration
