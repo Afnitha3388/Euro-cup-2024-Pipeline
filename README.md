@@ -74,7 +74,7 @@ Prerequisites
 
 Docker Desktop installed and running
 Kaggle account with API token
-Power BI Desktop (for visualization
+Power BI Desktop (for visualization)
 
 1. Start Airflow with Docker
 
