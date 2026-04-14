@@ -1,14 +1,14 @@
 # UEFA Euro 2024 Data Pipeline
 An end-to-end data engineering pipeline that extracts UEFA Euro 2024 match data from Kaggle, transforms it using Python and Pandas, loads it into PostgreSQL, and visualizes it in Power BI — all orchestrated with Apache Airflow running in Docker.
 
-# Pipeline Architecture
+#  Pipeline Architecture
 
+```
 Kaggle Dataset → Extract → Transform → Load → PostgreSQL → Power BI Dashboard
                                 ↑
                          Apache Airflow DAG
                          (Docker Container)
-
-
+```
 # Tech Stack
 
 | Tool | Purpose |
