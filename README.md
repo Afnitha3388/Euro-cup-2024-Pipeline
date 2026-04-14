@@ -62,10 +62,11 @@ matches — match results and statistics
 
 Source: UEFA Euro 2024 Records on Kaggle
 Tables:
-
+```
 matches — match number, teams, date, stadium, goals, shots
 goals — player, team, goals scored
 assists — player, team, assists made
+```
 
 # Setup Instructions
 Prerequisites
