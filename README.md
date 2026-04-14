@@ -78,23 +78,23 @@ Power BI Desktop (for visualization)
 
 1. Start Airflow with Docker
 
-docker compose up -d
+ docker compose up -d
 
 2. Add Kaggle credentials into the worker container
 
-docker exec airflow-docker-airflow-worker-1 mkdir -p /home/airflow/.kaggle,
+ docker exec airflow-docker-airflow-worker-1 mkdir -p /home/airflow/.kaggle,
 docker cp C:\Users\<your-username>\.kaggle\kaggle.json airflow-docker-airflow-worker-1:/home/airflow/.kaggle/kaggle.json,
-docker exec -u root airflow-docker-airflow-worker-1 chmod 600 /home/airflow/.kaggle/kaggle.json
+ docker exec -u root airflow-docker-airflow-worker-1 chmod 600 /home/airflow/.kaggle/kaggle.json
 
- 3. Create the target database in PostgreSQL
+3. Create the target database in PostgreSQL
 
-docker exec -it airflow-docker-postgres-1 psql -U airflow -c "CREATE DATABASE eurocup
+ docker exec -it airflow-docker-postgres-1 psql -U airflow -c "CREATE DATABASE eurocup
 
 4. Trigger the DAG
 
-Open Airflow UI at http://localhost:8080, 
-Find Euro_cup_2024_pipeline, 
-Click the play button to trigger manually, 
+ Open Airflow UI at http://localhost:8080, 
+ Find Euro_cup_2024_pipeline, 
+ Click the play button to trigger manually, 
 
 # Power BI Dashboard
 
