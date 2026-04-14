@@ -24,10 +24,12 @@ Kaggle Dataset → Extract → Transform → Load → PostgreSQL → Power BI Da
 
 # Project Structure
 
+```
 ├── dags/
 │   └── euro_cup.py       ← Airflow DAG (extract, transform, load)
 ├── docker-compose.yaml   ← Airflow + PostgreSQL setup
 └── README.md
+```
 
 # Pipeline Steps
 
