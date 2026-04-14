@@ -92,9 +92,9 @@ docker exec -it airflow-docker-postgres-1 psql -U airflow -c "CREATE DATABASE eu
 
 4. Trigger the DAG
 
-Open Airflow UI at http://localhost:8080
-Find Euro_cup_2024_pipeline
-Click the play button to trigger manually
+Open Airflow UI at http://localhost:8080, 
+Find Euro_cup_2024_pipeline, 
+Click the play button to trigger manually, 
 
 # Power BI Dashboard
 
